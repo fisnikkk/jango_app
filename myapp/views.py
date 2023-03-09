@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from .models import Product
 
+
 def index(request):
     message = "Welcome to my app"
     return render(request, 'index.html', {'message': message})
