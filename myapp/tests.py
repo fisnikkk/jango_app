@@ -1,6 +1,7 @@
 from django.test import TestCase
 from django.urls import reverse
-from .models import Product
+from myapp.models import Product
+
 
 class ProductListViewTests(TestCase):
     def test_product_list_view_with_no_products(self):
